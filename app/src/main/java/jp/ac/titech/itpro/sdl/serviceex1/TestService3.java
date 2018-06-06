@@ -4,8 +4,6 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
-//send Message using broad cast
-
 public class TestService3 extends IntentService {
     private final static String TAG = "TestService3";
     public final static String EXTRA_MYARG = "MYARG";
