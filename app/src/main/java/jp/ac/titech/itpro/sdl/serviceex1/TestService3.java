@@ -15,7 +15,7 @@ public class TestService3 extends IntentService {
     TestService3() {
         super(TAG);
     }
-//
+
     @Override
     protected void onHandleIntent(Intent intent) {
         Log.d(TAG, "onHandleIntent in " + Thread.currentThread());
